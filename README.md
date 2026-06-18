@@ -12,7 +12,7 @@
 [![Download latest APK](https://img.shields.io/badge/⬇%20Download%20latest%20APK-3ddc84?style=for-the-badge&logo=android&logoColor=white)](../../releases/latest)
 [![Get cratedigger.fm via Obtainium (recommended)](https://img.shields.io/badge/↻%20Get%20via%20Obtainium%20%28recommended%29-119eff?style=for-the-badge&logoColor=white)](#obtainium)
 
-[![Version](https://img.shields.io/badge/version-2.0.4-ff2d78?style=flat-square)](../../releases/latest)
+[![Version](https://img.shields.io/badge/version-2.0.5-ff2d78?style=flat-square)](../../releases/latest)
 [![Android 8.0+](https://img.shields.io/badge/Android-8.0%2B-3ddc84?style=flat-square&logo=android&logoColor=white)](#-system-requirements)
 [![GrapheneOS](https://img.shields.io/badge/GrapheneOS-ready-000000?style=flat-square)](#-system-requirements)
 [![Website](https://img.shields.io/badge/web-cratedigger.fm-0f0f11?style=flat-square&logo=googlechrome&logoColor=white)](https://cratedigger.fm)
