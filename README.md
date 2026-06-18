@@ -56,6 +56,18 @@ Think of it as a radio-style discovery engine for the indie web: hit play, lean 
 
 📖 More: [Obtainium website](https://obtainium.imranr.dev/) · [official usage guide & docs](https://github.com/ImranR98/Obtainium#obtainium).
 
+> [!WARNING]
+> ## 🛑 Keep Android open — sideloading is under threat
+>
+> **"Your phone is about to stop being yours."**
+>
+> From **September 2026**, Google plans to block every Android app whose developer hasn't registered with Google — handing over a government ID, paying fees, and signing agreements — on **all certified devices worldwide, including sideloaded and F-Droid apps**. There's no opt-out, and the proposed sideloading "escape hatch" is buried, slow (a 24-hour wait), and runs through Google Play Services that Google can change or revoke at any time.
+>
+> **Your freedom to install apps like cratedigger.fm this way is exactly what's at stake.** 71 organizations across 23 countries — including F-Droid, the EFF, the Software Freedom Conservancy, and Nextcloud — have signed an open letter opposing it.
+>
+> ### 👉 Learn more and take action at **[keepandroidopen.org](https://keepandroidopen.org/)**
+> Install F-Droid · contact regulators · sign the petition · share the campaign.
+
 ### Manual install (single APK)
 
 1. Download the latest APK from the **[Releases](../../releases/latest)** page.
