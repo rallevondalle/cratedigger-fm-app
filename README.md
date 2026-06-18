@@ -1,59 +1,103 @@
-# cratedigger.fm — Android App
-> Your companion for discovering independent music on Bandcamp.
-## What is cratedigger.fm?
-cratedigger.fm is a music discovery app built for anyone who wants to find new artists and releases outside the mainstream streaming algorithms. We surface curated independent labels, deep cuts, and hidden gems directly from Bandcamp — the platform where artists keep the majority of their revenue.
+<div align="center">
+
+<img src="https://cratedigger.fm/app-icon.png" alt="cratedigger.fm" width="128" height="128" style="border-radius:28px" />
+
+# cratedigger.fm — Android
+
+### Your companion for discovering independent music on Bandcamp.
+**Radio for the indie web** — hit play, lean back, and let the crates roll.
+
+<br/>
+
+[![Download APK](https://img.shields.io/badge/⬇%20Download%20latest%20APK-3ddc84?style=for-the-badge&logo=android&logoColor=white)](../../releases/latest)
+
+[![Latest release](https://img.shields.io/github/v/release/rallevondalle/cratedigger-fm-app?style=flat-square&color=ff2d78&label=version)](../../releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/rallevondalle/cratedigger-fm-app/total?style=flat-square&color=3ddc84&label=downloads)](../../releases)
+[![Release date](https://img.shields.io/github/release-date/rallevondalle/cratedigger-fm-app?style=flat-square&label=updated)](../../releases/latest)
+[![Android 8.0+](https://img.shields.io/badge/Android-8.0%2B-3ddc84?style=flat-square&logo=android&logoColor=white)](#-system-requirements)
+[![GrapheneOS](https://img.shields.io/badge/GrapheneOS-ready-000000?style=flat-square)](#-system-requirements)
+[![Website](https://img.shields.io/badge/web-cratedigger.fm-0f0f11?style=flat-square&logo=googlechrome&logoColor=white)](https://cratedigger.fm)
+
+</div>
+
+---
+
+## 🎧 What is cratedigger.fm?
+
+cratedigger.fm is a music discovery app for anyone who wants to find new artists and releases **outside the mainstream streaming algorithms**. It surfaces curated independent labels, deep cuts, and hidden gems directly from Bandcamp — the platform where artists keep the majority of their revenue.
+
 Think of it as a radio-style discovery engine for the indie web: hit play, lean back, and let the crates roll.
----
-## Features
-- **Discovery Mode** — Stream a continuous feed of hand-picked releases across genres.
-- **Playlists** — Save your favorite tracks into custom playlists.
-- **Favorites** — Star tracks and build your personal collection.
-- **Background Playback** — Keep listening while your screen is off or while using other apps.
-- **Lock-Screen Controls** — Play, pause, and skip from your notification shade and lock screen.
-- **Bandcamp Integration** — One-tap to buy the music you love directly from the artist.
-- **Dark Mode** — Easy on the eyes, day or night.
----
-## Installation
-1. Download the latest APK from the [Releases](../../releases) page.
+
+> 📦 This repository hosts the **sideload Android builds** (APKs). Grab the latest release below and install — no Play Store, no Google account required.
+
+## ✨ Features
+
+- **🌍 Discovery modes** — an endless feed of hand-picked releases: shuffle **All Bandcamp** by tag, spin **Curated Labels**, or tune your own **My Radio** from labels and artists you follow.
+- **📂 Playlists** — save your favorite tracks into custom playlists that auto-advance release to release.
+- **⭐ Favorites** — star tracks and build your personal collection.
+- **🔊 Background playback** — keep listening with the screen off or while using other apps; the next track is staged ahead so transitions are gapless.
+- **🔒 Lock-screen controls** — play, pause, and skip from your notification shade and lock screen.
+- **🛒 Bandcamp integration** — one tap to buy the music you love, directly from the artist.
+- **🌙 Dark mode** — easy on the eyes, day or night.
+
+## 📲 Installation
+
+1. Download the latest APK from the **[Releases](../../releases/latest)** page.
 2. Open the downloaded file on your Android device.
-3. If prompted, allow installation from your browser/file manager.
+3. If prompted, allow installation from your browser / file manager.
 4. Launch **cratedigger.fm** and start digging.
-> **Note:** This is a side-loaded APK. You will need to enable installation from unknown sources if this is your first time installing an app outside the Play Store.
----
-## System Requirements
-- **Android 8.0 (API 26)** or higher
-- **Internet connection** required for streaming
-- **~20 MB** of free storage
----
-## Permissions
-The app requests the following permissions:
-- **Internet** — Required for streaming audio and fetching release data.
-- **Foreground Service / Media Playback** — Required for background audio and lock-screen controls.
-- **Notifications** — Required for playback controls in the notification shade.
-- **Wake Lock** — Keeps the device awake briefly during track transitions.
----
-## Known Limitations
-- **No offline playback** — Tracks are streamed, not downloaded.
-- **Purchase links open externally** — Buying a release redirects to Bandcamp in your browser (this is expected).
-- **Screen-off reliability** — On some devices with aggressive battery optimization, background playback may pause after extended periods. If this happens, try disabling battery optimization for cratedigger.fm in your system settings.
----
-## Filing an Issue
-Found a bug or have a feature request? Please [open an issue](../../issues/new/choose) and include:
-1. **App version** — Found in the app settings or on the About screen.
-2. **Android version** — e.g., Android 14, Samsung One UI 6.
-3. **Device model** — e.g., Samsung Galaxy S23, Pixel 7.
-4. **What happened** — Steps to reproduce the problem.
-5. **What you expected** — A clear description of the expected behavior.
-6. **Screenshots / screen recordings** — If applicable, these help a lot.
----
-## Privacy
+
+> **First time sideloading?** You'll need to enable *"install unknown apps"* for your browser or file manager. On **GrapheneOS**, the installer works out of the box — no Play Services required.
+
+New versions install cleanly over older ones; your favorites and settings are preserved.
+
+## 📋 System Requirements
+
+| | |
+|---|---|
+| **OS** | Android 8.0 (API 26) or higher — incl. **GrapheneOS** |
+| **Connection** | Internet required for streaming |
+| **Storage** | ~20 MB free |
+
+## 🔐 Permissions
+
+| Permission | Why |
+|------------|-----|
+| **Internet** | Streaming audio and fetching release data |
+| **Foreground Service / Media Playback** | Background audio + lock-screen controls |
+| **Notifications** | Playback controls in the notification shade |
+| **Wake Lock** | Keeps the device awake briefly during track transitions |
+
+## ⚠️ Known Limitations
+
+- **No offline playback** — tracks are streamed, not downloaded.
+- **Purchase links open externally** — buying a release redirects to Bandcamp in your browser (this is expected).
+- **Screen-off reliability** — on some devices with aggressive battery optimization, background playback may pause after extended periods. If this happens, disable battery optimization for cratedigger.fm in your system settings (Samsung: *Battery → Unrestricted*).
+
+## 🐞 Filing an Issue
+
+Found a bug or have a feature request? Please **[open an issue](../../issues/new/choose)** and include:
+
+1. **App version** — shown in the footer / About screen.
+2. **Android version** — e.g. Android 14, Samsung One UI 6, GrapheneOS.
+3. **Device model** — e.g. Pixel 8, Samsung Galaxy S23.
+4. **What happened** — steps to reproduce.
+5. **What you expected** — the expected behavior.
+6. **Screenshots / screen recordings** — if applicable, they help a lot.
+
+## 🛡️ Privacy
+
 - No ads.
 - No third-party trackers beyond anonymous usage analytics.
 - Your Bandcamp credentials are never stored by the app.
-- Read the full [Privacy Policy](https://cratedigger.fm/privacy).
----
-## Credits
-cratedigger.fm is built with love for independent music and the artists who make it. All audio streams and purchase links are served directly by [Bandcamp](https://bandcamp.com).
----
-*Made for the heads, not the algorithms.*
+- Full [Privacy Policy](https://cratedigger.fm/privacy).
 
+## 💜 Credits
+
+cratedigger.fm is built with love for independent music and the artists who make it. All audio streams and purchase links are served directly by **[Bandcamp](https://bandcamp.com)**.
+
+---
+
+<div align="center">
+<sub><em>Made for the heads, not the algorithms.</em></sub>
+</div>
