@@ -42,6 +42,21 @@ Think of it as a radio-style discovery engine for the indie web: hit play, lean 
 
 ## 📲 Installation
 
+### ✅ Recommended: install with Obtainium (automatic updates)
+
+[**Obtainium**](https://obtainium.imranr.dev/) is a free, open-source Android app that installs and **keeps other apps up to date directly from their source** — like this GitHub repo — with no app store or Google account involved. Add cratedigger.fm once and Obtainium will notify you (or auto-install) every time a new release lands here, so you never have to re-download an APK by hand.
+
+1. **Install Obtainium** — get it from the [official website](https://obtainium.imranr.dev/) or its [GitHub releases](https://github.com/ImranR98/Obtainium/releases/latest).
+2. In Obtainium, tap **Add App** and paste this repo into the *App Source URL* field:
+   ```
+   https://github.com/rallevondalle/cratedigger-fm-app
+   ```
+3. Tap **Add**, then **Install**. Obtainium auto-detects the GitHub release, grabs the latest APK, and watches for future updates. ✅
+
+📖 More: [Obtainium website](https://obtainium.imranr.dev/) · [official usage guide & docs](https://github.com/ImranR98/Obtainium#obtainium).
+
+### Manual install (single APK)
+
 1. Download the latest APK from the **[Releases](../../releases/latest)** page.
 2. Open the downloaded file on your Android device.
 3. If prompted, allow installation from your browser / file manager.
