@@ -2,17 +2,19 @@
 
 <img src="https://cratedigger.fm/app-icon.png" alt="cratedigger.fm" width="128" height="128" style="border-radius:28px" />
 
-# cratedigger.fm — Android
+# cratedigger.fm — Apps
 
 ### Your companion for discovering independent music on Bandcamp.
 **Radio for the indie web** — hit play, lean back, and let the crates roll.
 
 <br/>
 
-[![Download latest APK](https://img.shields.io/badge/⬇%20Download%20latest%20APK-3ddc84?style=for-the-badge&logo=android&logoColor=white)](../../releases/latest)
-[![Get cratedigger.fm via Obtainium (recommended)](https://img.shields.io/badge/↻%20Get%20via%20Obtainium%20%28recommended%29-119eff?style=for-the-badge&logoColor=white)](#obtainium)
+[![Download latest APK](https://img.shields.io/badge/⬇%20Download%20Android%20APK-3ddc84?style=for-the-badge&logo=android&logoColor=white)](../../releases/latest)
+[![Download macOS app](https://img.shields.io/badge/%20Download%20macOS%20app-0f0f11?style=for-the-badge&logo=apple&logoColor=white)](../../releases/tag/desktop-v0.1.0)
+[![Get cratedigger.fm via Obtainium (recommended)](https://img.shields.io/badge/↻%20Android%20auto-updates%20via%20Obtainium-119eff?style=for-the-badge&logoColor=white)](#obtainium)
 
 [![Android 8.0+](https://img.shields.io/badge/Android-8.0%2B-3ddc84?style=flat-square&logo=android&logoColor=white)](#-system-requirements)
+[![macOS 11+](https://img.shields.io/badge/macOS-11%2B%20(Apple%20Silicon)-0f0f11?style=flat-square&logo=apple&logoColor=white)](#-system-requirements)
 [![GrapheneOS](https://img.shields.io/badge/GrapheneOS-ready-000000?style=flat-square)](#-system-requirements)
 [![Website](https://img.shields.io/badge/web-cratedigger.fm-0f0f11?style=flat-square&logo=googlechrome&logoColor=white)](https://cratedigger.fm)
 
@@ -26,7 +28,7 @@ cratedigger.fm is a music discovery app for anyone who wants to find new artists
 
 Think of it as a radio-style discovery engine for the indie web: hit play, lean back, and let the crates roll.
 
-> 📦 This repository hosts the **sideload Android builds** (APKs). Grab the latest release below and install — no Play Store, no Google account required.
+> 📦 This repository hosts the **downloadable apps** — the **Android** build (sideload APK, no Play Store or Google account needed) and the **macOS** desktop app (signed & notarized `.dmg`). Grab the one you need below.
 
 ## ✨ Features
 
@@ -78,13 +80,24 @@ Think of it as a radio-style discovery engine for the indie web: hit play, lean 
 
 New versions install cleanly over older ones; your favorites and settings are preserved.
 
+### 🍎 macOS
+
+A native desktop app that runs cratedigger.fm in its own window — no browser tab needed.
+
+1. Download the **`.dmg`** from the **[macOS release](../../releases/tag/desktop-v0.1.0)**.
+2. Open it and drag **cratedigger.fm** into your Applications folder.
+3. Launch it from Launchpad / Applications.
+
+The app is **signed with a Developer ID and notarized by Apple**, so it opens with no "unidentified developer" warning. Log in with your email and password; Bandcamp purchase links open in your default browser.
+
 ## 📋 System Requirements
 
 | | |
 |---|---|
-| **OS** | Android 8.0 (API 26) or higher — incl. **GrapheneOS** |
+| **Android** | 8.0 (API 26) or higher — incl. **GrapheneOS** |
+| **macOS** | 11 (Big Sur) or higher — **Apple Silicon** |
 | **Connection** | Internet required for streaming |
-| **Storage** | ~20 MB free |
+| **Storage** | Android ~20 MB · macOS ~5 MB |
 
 ## 🔐 Permissions
 
