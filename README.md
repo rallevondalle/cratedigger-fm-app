@@ -10,7 +10,7 @@
 <br/>
 
 [![Download latest APK](https://img.shields.io/badge/⬇%20Download%20Android%20APK-3ddc84?style=for-the-badge&logo=android&logoColor=white)](../../releases/latest)
-[![Download macOS app](https://img.shields.io/badge/%20Download%20macOS%20app-0f0f11?style=for-the-badge&logo=apple&logoColor=white)](../../releases/tag/desktop-v0.1.0)
+[![Download macOS app](https://img.shields.io/badge/%20Download%20macOS%20app-0f0f11?style=for-the-badge&logo=apple&logoColor=white)](../../releases/tag/desktop-v0.1.1)
 [![Get cratedigger.fm via Obtainium (recommended)](https://img.shields.io/badge/↻%20Android%20auto-updates%20via%20Obtainium-119eff?style=for-the-badge&logoColor=white)](#obtainium)
 
 [![Android 8.0+](https://img.shields.io/badge/Android-8.0%2B-3ddc84?style=flat-square&logo=android&logoColor=white)](#-system-requirements)
