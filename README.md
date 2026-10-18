@@ -84,7 +84,7 @@ New versions install cleanly over older ones; your favorites and settings are pr
 
 A native desktop app that runs cratedigger.fm in its own window — no browser tab needed.
 
-1. Download the **`.dmg`** from the **[macOS release](../../releases/tag/desktop-v0.1.0)**.
+1. Download the **`.dmg`** from the **[macOS release](../../releases/tag/desktop-v0.1.1)**.
 2. Open it and drag **cratedigger.fm** into your Applications folder.
 3. Launch it from Launchpad / Applications.
 
